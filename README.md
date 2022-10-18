@@ -35,6 +35,7 @@ Estamos testando sua capacidade de implementar infraestrutura automatizada moder
 
 0. Criar um fork público deste repositório para as implementações a seguir.
 1. Criar um Dockerfile para rodar a aplicação em Go disponibilizada no diretório `app`.
+   - Atentar-se às variáveis de ambiente
 2. Criar um Workflow (Github Actions) com os passos abaixo(Build/Test/Deploy).
    - Build: Checkout do código e build da aplicação
    - Test: Testes bem sucedidos
@@ -42,6 +43,7 @@ Estamos testando sua capacidade de implementar infraestrutura automatizada moder
 3. Criar a Infraestrurura como Código (IaaS). Recomendamos Terraform ou Ansible.
 4. Disponibilizar uma URL/IP da aplicação
    - Testaremos a rota `/ping`
+   - A rota deve retornar o seguinte json `{"message":"pong! Company Name: Amo Promo"}`
 
 
 ## Entrega do desafio
