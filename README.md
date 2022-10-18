@@ -33,6 +33,7 @@ Seu desafio é criar um pipeline para implementação da aplicação de forma au
 
 Estamos testando sua capacidade de implementar infraestrutura automatizada moderna, bem como conhecimentos gerais sobre administração de sistemas. Na sua solução, você deve enfatizar a legibilidade, a manutenção e as metodologias de DevOps.
 
+0. Criar um fork público deste repositório para as implementações a seguir.
 1. Criar um Dockerfile para rodar a aplicação em Go disponibilizada no diretório `app`.
 2. Criar um Workflow (Github Actions) com os passos abaixo(Build/Test/Deploy).
    - Build: Checkout do código e build da aplicação
@@ -44,7 +45,8 @@ Estamos testando sua capacidade de implementar infraestrutura automatizada moder
 
 
 ## Entrega do desafio
-Faça um fork público deste repositório com as implementações solicitadas: Dockerfile, Worflow do github actions e o arquivo de IaaS
+1. Faça um fork público deste repositório e complemente com as implementações solicitadas: Dockerfile, Worflow do Github Actions e o arquivo(s) de IaaS.
+2. Envie o link do repositório ao responsável pelo seu teste
 
 ## Diferenciais
 - Trazer alguma solução de Monitoramento
