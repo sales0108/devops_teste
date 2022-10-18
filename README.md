@@ -1,4 +1,4 @@
-# Teste Pessoa Desenvolvedora Back-end Amo Promo V1.1
+# Teste Pessoa DevOops Amo Promo V1.0
 
 # ![Amopromo](https://www.amopromo.com/images/logo-amo-promo.svg)
 
@@ -44,7 +44,8 @@ Estamos testando sua capacidade de implementar infraestrutura automatizada moder
 4. Disponibilizar uma URL/IP da aplicação
    - Testaremos a rota `/ping`
    - A rota deve retornar o seguinte json `{"message":"pong! Company Name: Amo Promo"}`
-
+5. Criar um script Shell para gerar uma **build local** do app e que permita escolher entre dois tipos de plataformas: `linux/amd64` e `darwin/arm64`
+   - A plataforma/arquitetura pode ser informada via argumento ao chamar o script *Ex: ./gera_build.sh linux amd64* ou da forma que achar mais prática e eficiente.
 
 ## Entrega do desafio
 1. Faça um fork público deste repositório e complemente com as implementações solicitadas: Dockerfile, Worflow do Github Actions e o arquivo(s) de IaaS.
