@@ -17,12 +17,12 @@ Sua capacidade de interpretação também está sendo avaliada, mas lembre-se qu
 Na Amo Promo, trabalhamos com diversos produtos, cada um com suas particularidades, backlog próprio e processos únicos.
 
 ### O que queremos:
-1. Infraestrutura como Código (Terraform/CloudFormation/Chef/Ansible/Puppet)
-2. Pipeline CI/CD (CircleCI/TravisCI/GitlabCI/Jenkins/Bamboo)
+1. Infraestrutura como Código (Terraform, Ansible, CloudFormation, Chef, Puppet)
+2. Pipeline CI/CD (Github Actions, CircleCI, TravisCI, GitlabCI, Jenkins, Bamboo)
 3. Docker/Container
-4. Monitoramento (CloudWatch/Graylog/ElasticSearch/Kibana)
-5. Cloud (AWS/Azure/GCP)
-6. Git (Github/Gitlab/BitBucket)
+4. Monitoramento (CloudWatch, Graylog, ElasticSearch, Kibana)
+5. Cloud (GCP, AWS, Azure, Oracle)
+6. Git (Github, Gitlab, BitBucket)
 
 ### O desafio:
 Seu desafio é criar um pipeline para implementação da aplicação de forma automatizada e disponibilizar acesso via web.
@@ -45,3 +45,7 @@ Estamos testando sua capacidade de implementar infraestrutura automatizada moder
 
 ## Entrega do desafio
 Faça um fork público deste repositório com as implementações solicitadas: Dockerfile, Worflow do github actions e o arquivo de IaaS
+
+## Diferenciais
+- Trazer alguma solução de Monitoramento
+- Utilizar a plataforma Cloud do Google (GCP)
