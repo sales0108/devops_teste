@@ -1,4 +1,4 @@
-# Teste Pessoa DevOops Amo Promo V1.0
+# Teste Pessoa DevOps Amo Promo V1.0
 
 # ![Amopromo](https://www.amopromo.com/images/logo-amo-promo.svg)
 
