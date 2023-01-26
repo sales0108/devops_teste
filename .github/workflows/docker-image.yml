@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
+      run: curl -OL https://golang.org/dl/go1.18.10.linux-amd64.tar.gz
+      run: sudo tar -C /usr/local -xvf go1.18.10.linux-amd64.tar.gz
       run: docker build . --file ./app/Dockerfile --tag my-image-name:$(date +%s)
