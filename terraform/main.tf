@@ -42,7 +42,7 @@ resource "google_compute_instance" "vmtestdevops" {
       }
   }
 
-        metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq docker.io; sudo apt-get install -yq golang; sudo cd /; sudo git clone https://github.com/sales0108/devops_teste.git; sudo docker build -t my-golang-app /devops_teste/app/.; sudo docker run -itd -p 8080:8080 --name my-running-app my-golang-app; sudo docker exec -d my-running-app go run . "
+        metadata_startup_script = "sudo apt-get update; sudo apt-get install -yq docker.io; sudo apt-get install -yq golang; sudo cd /; sudo git clone https://github.com/sales0108/devops_teste.git; sudo docker build -t my-golang-app /devops_teste/docker/.; sudo docker run -itd -p 8080:8080 --name my-running-app my-golang-app; sudo docker exec -d my-running-app go run . "
 
   network_interface {
     network = "default"
