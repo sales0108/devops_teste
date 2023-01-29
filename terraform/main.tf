@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "google" {
-  credentials = ${{ secrets.GCP_CREDENTIALS }}
+  credentials = file("chave.json")
 
-  project = ${{ secrets.GCP_PROJECT_ID }}
+  project = "devopsteste-375800"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
