@@ -2,13 +2,13 @@ terraform {
   required_providers {
     google = {
       source = "hashicorp/google"
-      version = "1.3.2"
+      version = "3.5.0"
     }
   }
 }
 
 provider "google" {
-  credentials = file("chave.json")
+  credentials = file("key.json")
 
   project = "devopsteste-375800"
   region  = "us-central1"
