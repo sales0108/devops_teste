@@ -51,3 +51,4 @@ resource "google_compute_instance" "vmtestdevops" {
     }
   }
 }
+
