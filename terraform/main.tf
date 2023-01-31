@@ -14,20 +14,20 @@ provider "google" {
   region  = "us-central1"
   zone    = "us-central1-c"
 }
-#resource "google_compute_firewall" "default" {
-#  name    = "default-firewall"
-#  network = "default"
+resource "google_compute_firewall" "default" {
+  name    = "default-firewall"
+  network = "default"
 
-#    allow {
-#    protocol = "icmp"
-#}
+    allow {
+    protocol = "icmp"
+}
 
-#  allow {
-#    protocol = "tcp"
-#    ports    = ["80", "8080"]
-#  }
+  allow {
+    protocol = "tcp"
+    ports    = ["80", "8080"]
+  }
 
-#}
+}
 
 
 resource "google_compute_instance" "vmtestdevops" {
